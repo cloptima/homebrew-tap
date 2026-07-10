@@ -1,26 +1,26 @@
 class CloptimaCli < Formula
   desc "Cloptima command line interface"
   homepage "https://cloptima.ai"
-  version "0.9.0"
+  version "0.10.0"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.9.0/cloptima-cli_0.9.0_darwin_arm64.tar.gz"
-      sha256 "ae1bbb2f24415bc09db08d080cbb1eaf7ead0b533dd72d6d46967ae9179b4710"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.10.0/cloptima-cli_0.10.0_darwin_arm64.tar.gz"
+      sha256 "41dcf52827481794931d4e464591f6c4816bb86a767dc4f30a499869b62655de"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.9.0/cloptima-cli_0.9.0_darwin_amd64.tar.gz"
-      sha256 "1fa49bda0b538bb70d44dc26d758701a5da001edc21d5ac49ee945fcb4e5414e"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.10.0/cloptima-cli_0.10.0_darwin_amd64.tar.gz"
+      sha256 "bb20323cefd72cbfbb1c6b7388c63fae24e947df570f89449f60ad5fda40544d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.9.0/cloptima-cli_0.9.0_linux_arm64.tar.gz"
-      sha256 "17387e4d21f2baa62c75947f52922ae058805168d1e2b260f42007b3b4147a6d"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.10.0/cloptima-cli_0.10.0_linux_arm64.tar.gz"
+      sha256 "f03d6dc8069820045c1a84ac97342bf6b2be91ead429811bdde88fec6be4b3da"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.9.0/cloptima-cli_0.9.0_linux_amd64.tar.gz"
-      sha256 "a56caccf458995a15708185d0c47c94541d680ffc8a964a9dcf265e15a4d1848"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/v0.10.0/cloptima-cli_0.10.0_linux_amd64.tar.gz"
+      sha256 "d0293b1511047e52ea128e310ea1b4d21e62eb549d0dbb0cbc4105008410b67c"
     end
   end
 
