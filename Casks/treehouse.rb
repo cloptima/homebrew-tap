@@ -1,11 +1,11 @@
 cask "treehouse" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.2.0"
-  sha256 arm:   "05c0db1402df82c881b88e891808548560d2c82fbd0bc5e87a293b9559f681cb",
-         intel: "f484f29295a544db2e347d305419263cdc52beada37962eb1a070960c1cd24fc"
+  version "0.3.0"
+  sha256 arm:   "8aae9bba8ba70525d2a26324a713549ff9513862038e3ed3656b6b9f77ad4843",
+         intel: "968f19790e99a436e603042511fff8002ab6774204b12b0e9595ef783190ff9e"
 
-  url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.2.0/Treehouse_#{version}_darwin_#{arch}.zip"
+  url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/Treehouse_#{version}_darwin_#{arch}.zip"
   name "Treehouse"
   desc "Live git worktree/diff overview menu bar app"
   homepage "https://treehouse.cloptima.ai/"

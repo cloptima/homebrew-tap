@@ -1,26 +1,26 @@
 class TreehouseCli < Formula
   desc "Headless git worktree/diff sync daemon for Treehouse"
   homepage "https://treehouse.cloptima.ai"
-  version "0.2.0"
+  version "0.3.0"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.2.0/treehouse-cli_0.2.0_darwin_arm64.tar.gz"
-      sha256 "a1ab17e6422e2ab3c378ebcf14d4bb2cb23bc726578a7706d83b8b73e1a74404"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/treehouse-cli_0.3.0_darwin_arm64.tar.gz"
+      sha256 "960b2a471e603e9d06f66636aeb6d7f577fa0703f61cbefb12bfa0c96a04d781"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.2.0/treehouse-cli_0.2.0_darwin_amd64.tar.gz"
-      sha256 "16a8bdcd3f5c67a9d7f00f4e7926675f67027abda7ba22e8b8c10311e733e699"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/treehouse-cli_0.3.0_darwin_amd64.tar.gz"
+      sha256 "091ee3eeb13f58452efbacbb8c658d3f33b7817de5a668e83752b78b1ed875bc"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.2.0/treehouse-cli_0.2.0_linux_arm64.tar.gz"
-      sha256 "463f61718c09798e435bc21df2afd701bb65c9929f7f5a360c838341ff350de1"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/treehouse-cli_0.3.0_linux_arm64.tar.gz"
+      sha256 "b8e37d1442413dc51e9205e82e46a6fe97d1af53b03bd6bd0303e8d6a5df2288"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.2.0/treehouse-cli_0.2.0_linux_amd64.tar.gz"
-      sha256 "b445b15351d838daa81bf7d34a5b7c1512ca3fdc9e4d4946cf17aafbdd4d034a"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/treehouse-cli_0.3.0_linux_amd64.tar.gz"
+      sha256 "d0e1a4a25ab2bdc4abcb5496930d8ddfb5000edaac58b9ef39f453c18d0ea6c4"
     end
   end
 
