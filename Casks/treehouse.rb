@@ -1,11 +1,11 @@
 cask "treehouse" do
   arch arm: "arm64", intel: "amd64"
 
-  version "0.3.0"
-  sha256 arm:   "8aae9bba8ba70525d2a26324a713549ff9513862038e3ed3656b6b9f77ad4843",
-         intel: "968f19790e99a436e603042511fff8002ab6774204b12b0e9595ef783190ff9e"
+  version "0.4.0"
+  sha256 arm:   "554e436f25d6abc3a55589a72ba821167485b1b9aadc5fce3a2f9fb7d6456acc",
+         intel: "af36fd39948e52a7c28501bae6fdaa2f79c560f3d5b912a57c1310cd66ff5e1c"
 
-  url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.3.0/Treehouse_#{version}_darwin_#{arch}.zip"
+  url "https://github.com/cloptima/cloptima-binaries/releases/download/treehouse-v0.4.0/Treehouse_#{version}_darwin_#{arch}.zip"
   name "Treehouse"
   desc "Live git worktree/diff overview menu bar app"
   homepage "https://treehouse.cloptima.ai/"
@@ -13,6 +13,7 @@ cask "treehouse" do
   depends_on macos: :big_sur
 
   app "Treehouse.app"
+  binary "#{appdir}/Treehouse.app/Contents/MacOS/treehouse"
 
   # Treehouse.app is ad-hoc signed rather than notarized (no Apple Developer
   # ID for this project), so Homebrew's download carries a quarantine
