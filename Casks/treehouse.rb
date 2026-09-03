@@ -10,7 +10,7 @@ cask "treehouse" do
   desc "Live git worktree/diff overview menu bar app"
   homepage "https://treehouse.cloptima.ai/"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "Treehouse.app"
   binary "#{appdir}/Treehouse.app/Contents/MacOS/treehouse"
