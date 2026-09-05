@@ -7,20 +7,20 @@ class TreehouseCli < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_darwin_arm64.tar.gz"
-      sha256 "06c8bbc854e5946af3cc81e90e81c7b8609de6d66f7415d5d8b919b7fa463b39"
+      sha256 "27ea0e3baa97c88d6c5d8d2fad2f7a870414ad4766652fe0e4854ab2804282a6"
     else
       url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_darwin_amd64.tar.gz"
-      sha256 "a6e69178c6847a7fdc1c4ccc5dfed0ae8fbdb8943d3228f8a1a4a59db7991395"
+      sha256 "f2dda6c52c3822abfe9d4f3d933a11032ef7c650bf2638d66920837cd6fc98d0"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_linux_arm64.tar.gz"
-      sha256 "fc451a599e1c2d7a38046621b15e78e789714c9f7f03a748de3328155d6f283a"
+      sha256 "a5eed8fe349caf8bd350f82a801bac90674d8657d61eb020685f74effa123d71"
     else
       url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_linux_amd64.tar.gz"
-      sha256 "02751afa9b03a2c4a9f1fe88902ea21f795278045a056570cad3dac7be36f5d5"
+      sha256 "00ba0279d421f68df6f90f2456f63fc1d8ce3ef43263b81deef7cc454537777a"
     end
   end
 
