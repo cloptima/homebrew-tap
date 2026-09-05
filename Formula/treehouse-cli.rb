@@ -1,26 +1,26 @@
 class TreehouseCli < Formula
   desc "Headless git worktree/diff sync daemon for Treehouse"
   homepage "https://treehouse.cloptima.ai"
-  version "0.8.0"
+  version "0.8.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_darwin_arm64.tar.gz"
-      sha256 "27ea0e3baa97c88d6c5d8d2fad2f7a870414ad4766652fe0e4854ab2804282a6"
+      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.1/treehouse-cli_0.8.1_darwin_arm64.tar.gz"
+      sha256 "359868ccc335df0b4dd646b16ac1b02c250b16ea833da27435617ab6ae1b4c0f"
     else
-      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_darwin_amd64.tar.gz"
-      sha256 "f2dda6c52c3822abfe9d4f3d933a11032ef7c650bf2638d66920837cd6fc98d0"
+      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.1/treehouse-cli_0.8.1_darwin_amd64.tar.gz"
+      sha256 "387502ef1af25c356c3a8b05d641110193844bd1b210c56e3f67aed1c1e9094d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_linux_arm64.tar.gz"
-      sha256 "a5eed8fe349caf8bd350f82a801bac90674d8657d61eb020685f74effa123d71"
+      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.1/treehouse-cli_0.8.1_linux_arm64.tar.gz"
+      sha256 "c86aea456b53590257fe22c971894b6af24446cd824eedd416303e46f185d5f5"
     else
-      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.0/treehouse-cli_0.8.0_linux_amd64.tar.gz"
-      sha256 "00ba0279d421f68df6f90f2456f63fc1d8ce3ef43263b81deef7cc454537777a"
+      url "https://github.com/cloptima/cloptima-treehouse/releases/download/v0.8.1/treehouse-cli_0.8.1_linux_amd64.tar.gz"
+      sha256 "24ce08d2d2a1603fbbe19fdea8e3ff54e302235d248a3009a0f32b9bb9a9a78f"
     end
   end
 
