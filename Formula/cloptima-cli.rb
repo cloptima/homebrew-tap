@@ -1,26 +1,26 @@
 class CloptimaCli < Formula
   desc "Cloptima command line interface"
   homepage "https://cloptima.ai"
-  version "0.15.1"
+  version "0.16.0"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.15.1/cloptima-cli_0.15.1_darwin_arm64.tar.gz"
-      sha256 "6df77c9658b547f639366b8c0fd42678a8b85c9873dbf59a32440827cd9c7941"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.16.0/cloptima-cli_0.16.0_darwin_arm64.tar.gz"
+      sha256 "b81ff09a04d0d1ba18974006a8ecf09f3b44fb1a156b7c7b70d81a5cae6543d6"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.15.1/cloptima-cli_0.15.1_darwin_amd64.tar.gz"
-      sha256 "cf8212dbd3495992fb566030f915ca9d0c5a3d86e07e714f71861a52751d1d9b"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.16.0/cloptima-cli_0.16.0_darwin_amd64.tar.gz"
+      sha256 "7b491c49f31e865011a3844fd46e78aafda6f38c83fb2d3cf1c5e3cb96c4044c"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.15.1/cloptima-cli_0.15.1_linux_arm64.tar.gz"
-      sha256 "ada84c1ab4090dbda9a6b80ac226c7a59d235a7c9147e3d8e610eb43f94e496e"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.16.0/cloptima-cli_0.16.0_linux_arm64.tar.gz"
+      sha256 "0970b8238bbc48be1a98e2be322bbea3f73db6c754b356a600195b69069154a4"
     else
-      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.15.1/cloptima-cli_0.15.1_linux_amd64.tar.gz"
-      sha256 "88deeb04d11b2394e3210252328cbbc9c30bb7c500f54f6693ed608efa067d6d"
+      url "https://github.com/cloptima/cloptima-binaries/releases/download/cloptima-cli-v0.16.0/cloptima-cli_0.16.0_linux_amd64.tar.gz"
+      sha256 "c14ab2ee143ee5cfeecf214a1f9ab3d6bb28fad6c05d65d680201e501271ca85"
     end
   end
 
